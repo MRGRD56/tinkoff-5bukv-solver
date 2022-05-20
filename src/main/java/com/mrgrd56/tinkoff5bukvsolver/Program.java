@@ -1,20 +1,15 @@
 package com.mrgrd56.tinkoff5bukvsolver;
 
+import com.mrgrd56.tinkoff5bukvsolver.games.Game_2022_05_20;
+import com.mrgrd56.tinkoff5bukvsolver.games.abstractions.Game;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class Program {
-    private static final Character[] foundLetters = {null, null, 'в', 'е', 'т'};
-    private static final Set<Character> absentLetters = Set.of('а', 'б', 'р', 'з', 'л');
-    private static final Map<Character, Set<Integer>> mispositionedLetters = Map.ofEntries(
-            Map.entry('о', Set.of(0, 2)),
-            Map.entry('в', Set.of(0)),
-            Map.entry('т', Set.of(1))
-    );
-
     public static void main(String[] args) throws Exception {
-        var matchingWords = findMatchingWords(foundLetters, absentLetters, mispositionedLetters);
+        var matchingWords = findMatchingWords(new Game_2022_05_20());
         printWords(matchingWords);
     }
 
@@ -46,6 +41,10 @@ public class Program {
         }
 
         return map;
+    }
+
+    private static List<String> findMatchingWords(Game game) throws IOException {
+        return findMatchingWords(game.getFoundLetters(), game.getAbsentLetters(), game.getMispositionedLetters());
     }
 
     private static List<String> findMatchingWords(
