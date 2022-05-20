@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Create the program">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_05_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/Game.java" afterDir="false" />
+    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Some changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/builders/MispositionedLettersBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_05_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_05_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "app.teamhub.trackedBranches": "",
+    "app.teamhub.trackedBranches": "-1v4eo/master",
     "last_opened_file_path": "C:/Users/SU/IdeaProjects/url-shortener/tinkoff-5bukv-solver/src/test/resources"
   }
 }]]></component>
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653052836523</updated>
-      <workItem from="1653052838290" duration="3412000" />
+      <workItem from="1653052838290" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="Create the program">
       <created>1653055883568</created>
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653055883568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some changes">
+      <created>1653056321228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653056321228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create the program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the program" />
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
 </project>

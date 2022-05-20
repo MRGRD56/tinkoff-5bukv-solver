@@ -1,14 +1,15 @@
 package com.mrgrd56.tinkoff5bukvsolver.games;
 
 import com.mrgrd56.tinkoff5bukvsolver.games.abstractions.Game;
+import com.mrgrd56.tinkoff5bukvsolver.games.builders.MispositionedLettersBuilder;
 
 import java.util.Map;
 import java.util.Set;
 
-public class Game_2022_05_20 implements Game {
+public class Game_2022_05_20 extends Game {
     @Override
     public Character[] getFoundLetters() {
-        return new Character[] {null, null, 'в', 'е', 'т'};
+        return buildFoundLetters(null, null, 'в', 'е', 'т');
     }
 
     @Override
@@ -18,10 +19,10 @@ public class Game_2022_05_20 implements Game {
 
     @Override
     public Map<Character, Set<Integer>> getMispositionedLetters() {
-        return Map.ofEntries(
-                Map.entry('о', Set.of(0, 2)),
-                Map.entry('в', Set.of(0)),
-                Map.entry('т', Set.of(1))
-        );
+        return new MispositionedLettersBuilder()
+                .letter('о', 0, 2)
+                .letter('в', 0)
+                .letter('т', 1)
+                .build();
     }
 }
