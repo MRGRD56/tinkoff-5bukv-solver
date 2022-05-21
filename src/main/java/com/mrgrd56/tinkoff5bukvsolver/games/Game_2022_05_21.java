@@ -6,23 +6,21 @@ import com.mrgrd56.tinkoff5bukvsolver.games.builders.MispositionedLettersBuilder
 import java.util.Map;
 import java.util.Set;
 
-public class Game_2022_05_20 extends Game {
+public class Game_2022_05_21 extends Game {
     @Override
     public Character[] getFoundLetters() {
-        return createFoundLetters(null, null, 'в', 'е', 'т');
+        return parseFoundLetters("--р--");
     }
 
     @Override
     public Set<Character> getAbsentLetters() {
-        return Set.of('а', 'б', 'р', 'з', 'л');
+        return parseAbsentLetters("бон");
     }
 
     @Override
     public Map<Character, Set<Integer>> getMispositionedLetters() {
         return new MispositionedLettersBuilder()
-                .letter('о', 0, 2)
-                .letter('в', 0)
-                .letter('т', 1)
+                .letter('а', 1)
                 .build();
     }
 }
