@@ -21,7 +21,7 @@ public class Game_2022_05_25 extends Game {
     @Override
     public Map<Character, Set<Integer>> getMispositionedLetters() {
         return MispositionedLettersBuilder.humanReadable()
-                .letter('а', 5, 4) //FIXME азарт, азиАт, алмАз
+                .letter('а', 5, 4)
                 .letter('з', 3)
                 .build();
     }

@@ -40,7 +40,7 @@ public class GameSolver {
                         var wrongPositions = entry.getValue();
                         return wrongPositions.stream().allMatch(wrongPosition -> {
                             var letterIndex = word.indexOf(Character.toString(letter));
-                            return letterIndex != -1 && letterIndex != wrongPosition;
+                            return letterIndex != -1 && word.charAt(wrongPosition) != letter;
                         });
                     })) {
                         return false;
