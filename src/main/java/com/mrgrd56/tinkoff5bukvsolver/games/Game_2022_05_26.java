@@ -16,9 +16,8 @@ public class Game_2022_05_26 extends BuiltGame {
 
     @Override
     protected MispositionedLettersBuilder prepareMispositionedLetters() {
-        return MispositionedLettersBuilder.humanReadable()
-                .letter('т', 5)
-                .letter('р', 2)
-                .letter('а', 3);
+        return MispositionedLettersBuilder.lineByLine()
+                .line("----т")
+                .line("-ра--");
     }
 }
