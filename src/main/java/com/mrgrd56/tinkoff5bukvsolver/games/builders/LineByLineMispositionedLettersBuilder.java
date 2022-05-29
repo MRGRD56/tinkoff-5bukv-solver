@@ -26,4 +26,13 @@ public class LineByLineMispositionedLettersBuilder extends MispositionedLettersB
 
         return this;
     }
+
+    public LineByLineMispositionedLettersBuilder lines(String lines) {
+        var linesArray = lines.split("\n");
+        for (var line : linesArray) {
+            line(line);
+        }
+
+        return this;
+    }
 }
