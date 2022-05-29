@@ -6,7 +6,7 @@ import com.mrgrd56.tinkoff5bukvsolver.games.builders.abstractions.MispositionedL
 public class Game_2022_05_29 extends BuiltGame {
     @Override
     protected String prepareFoundLetters() {
-        return "-----";
+        return null;
     }
 
     @Override

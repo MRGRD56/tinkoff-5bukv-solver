@@ -18,10 +18,18 @@ public abstract class Game {
     }
 
     protected Character[] parseFoundLetters(String letters) {
+        if (letters == null || letters.length() == 0) {
+            return new Character[] {null, null, null, null, null};
+        }
+
         return LettersUtils.parseLine(letters);
     }
 
     protected Set<Character> parseAbsentLetters(String letters) {
+        if (letters == null) {
+            return Set.of();
+        }
+
         return letters.chars()
                 .mapToObj(letter -> (char) letter)
                 .collect(Collectors.toSet());

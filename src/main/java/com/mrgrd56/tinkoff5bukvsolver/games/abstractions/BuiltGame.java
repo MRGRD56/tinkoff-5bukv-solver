@@ -12,7 +12,13 @@ public abstract class BuiltGame extends Game {
 
     @Override
     public Character[] getFoundLetters() {
-        return parseFoundLetters(prepareFoundLetters());
+        var preparedFoundLetters = prepareFoundLetters();
+
+        if (preparedFoundLetters == null || preparedFoundLetters.length() == 0) {
+            return new Character[] {null, null, null, null, null};
+        }
+
+        return parseFoundLetters(preparedFoundLetters);
     }
 
     @Override
