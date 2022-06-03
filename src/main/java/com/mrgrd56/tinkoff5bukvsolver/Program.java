@@ -8,7 +8,7 @@ import java.util.Collection;
 public class Program {
     private static final GameSolver gameSolver = new GameSolver();
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         var matchingWords = gameSolver.findMatchingWords(new Game_2022_06_03());
         printWords(matchingWords);
     }

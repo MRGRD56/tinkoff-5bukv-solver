@@ -10,11 +10,14 @@ import java.util.List;
 public class WordsProvider {
     private static final String fileName = "russian_nouns_normalized.txt";
 
-    public List<String> getAllWords() throws IOException {
-        var fileStream = Program.class.getClassLoader().getResourceAsStream(fileName);
-        assert fileStream != null;
-        var fileBytes = fileStream.readAllBytes();
-        var fileText = new String(fileBytes, StandardCharsets.UTF_8);
-        return Arrays.stream(fileText.split("\r\n")).toList();
+    public List<String> getAllWords() {
+        try (var fileStream = Program.class.getClassLoader().getResourceAsStream(fileName)) {
+            assert fileStream != null;
+            var fileBytes = fileStream.readAllBytes();
+            var fileText = new String(fileBytes, StandardCharsets.UTF_8);
+            return Arrays.stream(fileText.split("\r\n")).toList();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

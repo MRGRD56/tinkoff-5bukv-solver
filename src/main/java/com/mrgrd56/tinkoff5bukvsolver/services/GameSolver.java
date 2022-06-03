@@ -2,20 +2,22 @@ package com.mrgrd56.tinkoff5bukvsolver.services;
 
 import com.mrgrd56.tinkoff5bukvsolver.games.abstractions.Game;
 
-import java.io.IOException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class GameSolver {
     private final WordsProvider wordsProvider = new WordsProvider();
 
-    public List<String> findMatchingWords(Game game) throws IOException {
+    public List<String> findMatchingWords(Game game) {
         return findMatchingWords(game.getFoundLetters(), game.getAbsentLetters(), game.getMispositionedLetters());
     }
 
     public List<String> findMatchingWords(
             Character[] foundLetters,
             Set<Character> absentLetters,
-            Map<Character, Set<Integer>> mispositionedLetters) throws IOException {
+            Map<Character, Set<Integer>> mispositionedLetters) {
         var foundLettersMapEntries = getLettersMap(foundLetters).entrySet();
         var mispositionedLettersMapEntries = mispositionedLetters.entrySet();
 
