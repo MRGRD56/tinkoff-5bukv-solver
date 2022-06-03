@@ -2,7 +2,9 @@ package com.mrgrd56.tinkoff5bukvsolver.games.builders;
 
 import com.mrgrd56.tinkoff5bukvsolver.games.builders.abstractions.MispositionedLettersBuilder;
 import com.mrgrd56.tinkoff5bukvsolver.utils.LettersUtils;
+import org.apache.commons.lang3.StringUtils;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
@@ -28,10 +30,13 @@ public class LineByLineMispositionedLettersBuilder extends MispositionedLettersB
     }
 
     public LineByLineMispositionedLettersBuilder lines(String lines) {
-        var linesArray = lines.split("\n");
-        for (var line : linesArray) {
-            line(line);
+        if (lines == null) {
+            return this;
         }
+
+        Arrays.stream(lines.split("\n"))
+                .filter(StringUtils::isNotEmpty)
+                .forEach(this::line);
 
         return this;
     }

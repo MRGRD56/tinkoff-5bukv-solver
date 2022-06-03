@@ -28,6 +28,11 @@ public abstract class BuiltGame extends Game {
 
     @Override
     public Map<Character, Set<Integer>> getMispositionedLetters() {
-        return prepareMispositionedLetters().build();
+        var builder = prepareMispositionedLetters();
+        if (builder == null) {
+            return Map.of();
+        }
+
+        return builder.build();
     }
 }
