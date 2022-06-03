@@ -5,12 +5,18 @@ import com.mrgrd56.tinkoff5bukvsolver.games.builders.abstractions.MispositionedL
 public class BuiltGameImpl extends BuiltGame {
     private final String foundLetters;
     private final String absentLetters;
-    private final String mispositionedLetters;
+    private final MispositionedLettersBuilder mispositionedLettersBuilder;
 
     public BuiltGameImpl(String foundLetters, String absentLetters, String mispositionedLetters) {
         this.foundLetters = foundLetters;
         this.absentLetters = absentLetters;
-        this.mispositionedLetters = mispositionedLetters;
+        this.mispositionedLettersBuilder = MispositionedLettersBuilder.lineByLine().lines(mispositionedLetters);
+    }
+
+    public BuiltGameImpl(String foundLetters, String absentLetters, MispositionedLettersBuilder mispositionedLettersBuilder) {
+        this.foundLetters = foundLetters;
+        this.absentLetters = absentLetters;
+        this.mispositionedLettersBuilder = mispositionedLettersBuilder;
     }
 
     @Override
@@ -25,7 +31,6 @@ public class BuiltGameImpl extends BuiltGame {
 
     @Override
     protected MispositionedLettersBuilder prepareMispositionedLetters() {
-        return MispositionedLettersBuilder.lineByLine()
-                .lines(mispositionedLetters);
+        return mispositionedLettersBuilder;
     }
 }

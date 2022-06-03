@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Game 2022-06-03">
+    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/services/GameSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/services/GameSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/services/WordsProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/services/WordsProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/BuiltGameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/BuiltGameImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1653969825847" duration="894000" />
       <workItem from="1654059705809" duration="235000" />
       <workItem from="1654152062735" duration="252000" />
-      <workItem from="1654255588427" duration="757000" />
+      <workItem from="1654255588427" duration="845000" />
     </task>
     <task id="LOCAL-00001" summary="Create the program">
       <created>1653055883568</created>
@@ -211,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654256123269</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Some changes">
+      <created>1654256363618</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654256363618</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +238,6 @@
     <MESSAGE value="Game 2022-05-21" />
     <MESSAGE value="Game 2022-05-23" />
     <MESSAGE value="Game 2022-05-25" />
-    <MESSAGE value="Some changes" />
     <MESSAGE value="Game 2022-05-26, some fixes and improvements" />
     <MESSAGE value="Add new MispositionedLettersBuilder - LineByLineMispositionedLettersBuilder" />
     <MESSAGE value="Game 2022-05-28" />
@@ -244,6 +248,7 @@
     <MESSAGE value="Game 2022-06-01" />
     <MESSAGE value="Game 2022-06-02" />
     <MESSAGE value="Game 2022-06-03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game 2022-06-03" />
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
 </project>
