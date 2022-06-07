@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Game 2022-06-05">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_06_06.java" afterDir="false" />
+    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Game 2022-06-06">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_06_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" afterDir="false" />
     </list>
@@ -92,7 +92,8 @@
       <workItem from="1654255588427" duration="884000" />
       <workItem from="1654349332044" duration="406000" />
       <workItem from="1654433300613" duration="123000" />
-      <workItem from="1654514902142" duration="133000" />
+      <workItem from="1654514902142" duration="155000" />
+      <workItem from="1654579252357" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="Create the program">
       <created>1653055883568</created>
@@ -241,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654433411425</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Game 2022-06-06">
+      <created>1654515041049</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654515041049</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +285,7 @@
     <MESSAGE value="Improve BuiltGameImpl" />
     <MESSAGE value="Пфьу 2022-06-04" />
     <MESSAGE value="Game 2022-06-05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game 2022-06-05" />
+    <MESSAGE value="Game 2022-06-06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game 2022-06-06" />
   </component>
 </project>
