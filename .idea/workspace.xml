@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Game 2022-06-09. Add word &quot;добро&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/Game_2022_10_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/utils/GameFinder.java" afterDir="false" />
+    <list default="true" id="b6462842-1454-42be-b69f-74d11b4c804d" name="Changes" comment="Game 2022-10-11. Add GameFinder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/BuiltGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/BuiltGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mrgrd56/tinkoff5bukvsolver/games/abstractions/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-17.0.2/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-17.0.2/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
@@ -43,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "app.teamhub.trackedBranches": "i0nedd/master",
-    "last_opened_file_path": "C:/Users/SU/IdeaProjects/tinkoff-5bukv-solver/pom.xml",
-    "ts.external.directory.path": "C:\\Users\\SU\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\221.5591.52\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;i0nedd/master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SU/IdeaProjects/tinkoff-5bukv-solver/pom.xml&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\SU\\AppData\\Local\\JetBrains\\Toolbox\\apps\\IDEA-U\\ch-0\\221.5591.52\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SU\IdeaProjects\url-shortener\tinkoff-5bukv-solver\src\test\resources" />
@@ -99,7 +100,8 @@
       <workItem from="1654685365184" duration="348000" />
       <workItem from="1654788004529" duration="1390000" />
       <workItem from="1654795548061" duration="811000" />
-      <workItem from="1665511848508" duration="1326000" />
+      <workItem from="1665511848508" duration="1415000" />
+      <workItem from="1665513460475" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="Create the program">
       <created>1653055883568</created>
@@ -276,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654788738672</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Game 2022-10-11. Add GameFinder">
+      <created>1665513224563</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665513224563</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +325,7 @@
     <MESSAGE value="Game 2022-06-07" />
     <MESSAGE value="Game 2022-06-08" />
     <MESSAGE value="Game 2022-06-09. Add word &quot;добро&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Game 2022-06-09. Add word &quot;добро&quot;" />
+    <MESSAGE value="Game 2022-10-11. Add GameFinder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Game 2022-10-11. Add GameFinder" />
   </component>
 </project>

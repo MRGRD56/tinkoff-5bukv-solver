@@ -11,7 +11,7 @@ public abstract class BuiltGame extends Game {
     protected abstract MispositionedLettersBuilder prepareMispositionedLetters();
 
     @Override
-    public Character[] getFoundLetters() {
+    public final Character[] getFoundLetters() {
         var preparedFoundLetters = prepareFoundLetters();
 
         if (preparedFoundLetters == null || preparedFoundLetters.length() == 0) {
@@ -22,12 +22,12 @@ public abstract class BuiltGame extends Game {
     }
 
     @Override
-    public Set<Character> getAbsentLetters() {
+    public final Set<Character> getAbsentLetters() {
         return parseAbsentLetters(prepareAbsentLetters());
     }
 
     @Override
-    public Map<Character, Set<Integer>> getMispositionedLetters() {
+    public final Map<Character, Set<Integer>> getMispositionedLetters() {
         var builder = prepareMispositionedLetters();
         if (builder == null) {
             return Map.of();

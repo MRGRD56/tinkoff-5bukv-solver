@@ -13,11 +13,11 @@ public abstract class Game {
 
     public abstract Map<Character, Set<Integer>> getMispositionedLetters();
 
-    protected Character[] createFoundLetters(Character l1, Character l2, Character l3, Character l4, Character l5) {
+    protected final Character[] createFoundLetters(Character l1, Character l2, Character l3, Character l4, Character l5) {
         return new Character[]{l1, l2, l3, l4, l5};
     }
 
-    protected Character[] parseFoundLetters(String letters) {
+    protected final Character[] parseFoundLetters(String letters) {
         if (letters == null || letters.length() == 0) {
             return new Character[] {null, null, null, null, null};
         }
@@ -25,7 +25,7 @@ public abstract class Game {
         return LettersUtils.parseLine(letters);
     }
 
-    protected Set<Character> parseAbsentLetters(String letters) {
+    protected final Set<Character> parseAbsentLetters(String letters) {
         if (letters == null) {
             return Set.of();
         }
