@@ -11,4 +11,4 @@ The repository is here https://github.com/MRGRD56/mrgrd56.github.io/tree/master/
 Рекомендуется использовать это https://mrgrd56.github.io/#/tools/tinkoff-5bukv-solver (доступно в браузере)  
 Репозиторий: https://github.com/MRGRD56/mrgrd56.github.io/tree/master/src/pages/tinkoff5BukvSolverPage
 
-![image](https://user-images.githubusercontent.com/35491968/196151590-4d159f33-729e-4282-b5ec-f33d2ae39953.png)
+![image](https://user-images.githubusercontent.com/35491968/198880683-c2249ab6-0d56-44d3-be12-b08aff3aed58.png)
