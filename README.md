@@ -1,6 +1,8 @@
 # tinkoff-5bukv-solver
 ### Решатель "5 букв" от Тинькофф
 
+[<img alt="Открыть в браузере" src="https://github.com/MRGRD56/tinkoff-5bukv-solver/assets/35491968/f8fed2fc-9e32-4b9b-a6ce-e7486b2d671f">](https://kiriru.su/#/tools/tinkoff-5bukv-solver)
+
 ##### Russian
 Этот репозиторий **устарел** и больше не поддерживается  
 Рекомендуется использовать это https://mrgrd56.github.io/#/tools/tinkoff-5bukv-solver (доступно в браузере)  
