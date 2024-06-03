@@ -12,3 +12,6 @@
 ##### English
 The source code in this repository is obsolete  
 The up-to-date code can be found here: https://github.com/MRGRD56/mrgrd56.github.io/tree/master/src/pages/tinkoff5BukvSolverPage
+
+
+_(тинькофф 5 букв решатель помощник ответы 5букв тиньков поиск слов найти слова какое слово сегодня)_
